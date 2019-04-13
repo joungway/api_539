@@ -44,7 +44,7 @@
 }
 
 #best-seller-titles {
-  max-width: 475px;
+  max-width: 95%;
   margin: 120px auto;
 }
 
@@ -95,8 +95,16 @@
   transition: 100ms;
 }
 
-@media only screen and (min-width:900px)
+@media only screen and (min-width:1000px)
 {
+  div#best-seller-titles{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+    grid-gap: 40px;
+    width: 90%;
+    /* margin:10%; */
+  }
 
 
 }
